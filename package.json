@@ -1,0 +1,20 @@
+{
+    "name": "node14-alpine-node-canvas-sharp-lambda",
+    "version": "1.0.0",
+    "description": "A docker image including the required dependencies for node.js 14, node-canvas and sharp.",
+    "main": "index.js",
+    "scripts": {
+        "docker-build": "docker build -t node-alpine-fabric-lambda:latest",
+        "docker-publish": "docker push node-alpine-fabric-lambda:latest"
+    },
+    "keywords": [
+        "Docker",
+        "AWS",
+        "Lambda",
+        "node-canvas",
+        "canvas",
+        "sharp"
+    ],
+    "author": "Steffen Langer",
+    "license": "MIT"
+}
