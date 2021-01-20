@@ -1,19 +1,16 @@
 {
-    "name": "node-alpine-fabric-lambda",
+    "name": "node-alpine-lambda",
     "version": "1.0.0",
-    "description": "A docker image including the required dependencies for node.js LTS, AWS Lambda RIC and fabric.js (including node-canvas).",
+    "description": "A docker image including the required dependencies for node.js LTS and AWS Lambda RIC.",
     "main": "index.js",
     "scripts": {
-        "build": "docker build -t autoixpert/node-alpine-fabric-lambda:latest .",
-        "publish": "docker push autoixpert/node-alpine-fabric-lambda:latest"
+        "build": "docker build -t autoixpert/node-alpine-lambda:latest .",
+        "publish": "docker push autoixpert/node-alpine-lambda:latest"
     },
     "keywords": [
         "Docker",
         "AWS",
-        "Lambda",
-        "node-canvas",
-        "canvas",
-        "sharp"
+        "Lambda"
     ],
     "author": "Steffen Langer",
     "license": "MIT"
